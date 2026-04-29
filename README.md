@@ -1,6 +1,12 @@
 # peaceiris/actions-hugo
 
-Hardened GitHub Action by [Chainguard](https://www.chainguard.dev).
+Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo).
+
+## Versions
+
+| Version | Tag | Upstream commit |
+|---------|-----|-----------------|
+| v3.0.0 | [`v3.0.0`](https://github.com/chainguard-actions/actions-hugo/tree/v3.0.0) | — |
 
 ## Privacy
 
