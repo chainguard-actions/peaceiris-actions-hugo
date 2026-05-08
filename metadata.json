@@ -2,5 +2,6 @@
   "owner": "peaceiris",
   "name": "actions-hugo",
   "visibility": "internal",
-  "description": "GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast. Hugo extended, Hugo Modules, Linux (Ubuntu), macOS, and Windows are supported."
+  "description": "GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast. Hugo extended, Hugo Modules, Linux (Ubuntu), macOS, and Windows are supported.",
+  "block_publish": false
 }
