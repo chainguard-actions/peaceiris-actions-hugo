@@ -1,6 +1,6 @@
 # peaceiris/actions-hugo
 
-GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast. Hugo extended, Hugo Modules, Linux (Ubuntu), macOS, and Windows are supported.
+GitHub Actions for Hugo ⚡️ Setup Hugo quickly and build your site fast. Hugo extended and Hugo Modules are supported.
 
 Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo).
 
