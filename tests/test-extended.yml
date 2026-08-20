@@ -1,0 +1,28 @@
+name: Test Hugo extended version
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          hugo-version: '0.121.2'
+          extended: 'true'
+      - name: Assert Hugo extended is installed
+        run: |
+          echo "Checking Hugo extended installation..."
+          if ! command -v hugo &>/dev/null; then
+            echo "FAIL: hugo binary not found in PATH"
+            exit 1
+          fi
+          VERSION=$(hugo version)
+          echo "Hugo version output: $VERSION"
+          if echo "$VERSION" | grep -qi "extended"; then
+            echo "PASS: Hugo extended is installed"
+          else
+            echo "FAIL: Expected Hugo extended but got: $VERSION"
+            exit 1
+          fi

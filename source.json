@@ -2,8 +2,10 @@
   "owner": "peaceiris",
   "repo": "actions-hugo",
   "version": "v3.0.0",
+  "commit_sha": "75d2e84710de30f6ff7268e08f310b60ef14033f",
   "url": "https://github.com/peaceiris/actions-hugo",
   "policy_sha": "d636be7e43ef829af6e853da6b3c7566db9f72fe",
   "test_policy_sha": "843adf9e4b8f85d0c08b27b9d0b09dd094b54702",
-  "harden_agent_version": "1"
+  "test_agent_version": "2",
+  "harden_agent_version": "2"
 }
